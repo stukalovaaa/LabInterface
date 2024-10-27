@@ -10,18 +10,8 @@ btn1.addEventListener("click", function () {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText("Вывести информацию об амурском тигре");
-        item = "1";
-        tg.MainButton.show();
-    }
-});
-btn2.addEventListener("click", function () {
-    if (tg.MainButton.isVisible) {
-        tg.MainButton.hide();
-    }
-    else {
         tg.MainButton.setText("Вывести информацию о кабарге");
-        item = "2";
+        item = "kabarga";
         tg.MainButton.show();
     }
 });
@@ -30,8 +20,18 @@ btn3.addEventListener("click", function () {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText("Вывести информацию об подковоносе");
-        item = "3";
+        tg.MainButton.setText("Вывести информацию о подковоносе");
+        item = "podkovonos";
+        tg.MainButton.show();
+    }
+});
+btn2.addEventListener("click", function () {
+    if (tg.MainButton.isVisible) {
+        tg.MainButton.hide();
+    }
+    else {
+        tg.MainButton.setText("Вывести информацию об амурском тигре");
+        item = "amurtigr";
         tg.MainButton.show();
     }
 });
@@ -41,7 +41,7 @@ btn4.addEventListener("click", function () {
     }
     else {
         tg.MainButton.setText("Вывести информацию о снежном барсе");
-        item = "4";
+        item = "snegniibars";
         tg.MainButton.show();
     }
 });
